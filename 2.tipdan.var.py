@@ -15,6 +15,6 @@ boolean_f = False # 0
 name = "Aina"
 age = 22
 
-s = f"имя: {name} возраст {age}"
+s = f"имя: {name} возраст: {age}"
 print(s)
 
