@@ -1,6 +1,6 @@
 # условные операторы
 
-# var = 10
+var = 10
 
 # оператор IF
 
@@ -10,35 +10,57 @@
 # if var != 0:
 #     print ("Hello!")
 
-var = "A"
+# if False:
+#     print("Hi!")
 
-if var == "A":
-    res = "literal A"   #маленькая и большая буквы - это другие символы
-elif var == "a":    #elif - доподнительное условие 
-    res = "literal a"
-elif var == "C":
-    res = "literal C"
+# if  not var<12:
+#     print("Hello!")
 
-# print(res)
+# оператор ELSE
+# var = -1
+# if var > 0:
+#     print("больше нуля")
+# else:
+#     print("не больше нуля")
 
-# условные операторы - перекрестки в мире программирования
-
-# боевой пример:
-# сделаем консульный калькулятор:
-num_1 = int(input("Введите первое число: "))
-num_2 = int(input("Введите второе число: "))
-
-op = input("Введите символ операции: ")
-
-if op == "+":
-    res = num_1 + num_2
-elif op == "-":
-    res = num_1 - num_2
-elif op == "*":
-    res = num_1 * num_2
-elif op == "/":
-    res = num_1 / num_2
+# оператор ELIF = else if
+var = 0
+if var >0:
+    print("больше нуля")
+elif var > 0:
+    print("меньше нуля")
 else:
-    res = "Символ операции некорректен :("
+    print("равно нулю")
 
-print(f"Результат = {res}")
+# var = "A"
+
+# if var == "A":
+#     res = "literal A"   #маленькая и большая буквы - это другие символы
+# elif var == "a":    #elif - доподнительное условие 
+#     res = "literal a"
+# elif var == "C":
+#     res = "literal C"
+
+# # print(res)
+
+# # условные операторы - перекрестки в мире программирования
+
+# # боевой пример:
+# # сделаем консульный калькулятор:
+# num_1 = int(input("Введите первое число: "))
+# num_2 = int(input("Введите второе число: "))
+
+# op = input("Введите символ операции: ")
+
+# if op == "+":
+#     res = num_1 + num_2
+# elif op == "-":
+#     res = num_1 - num_2
+# elif op == "*":
+#     res = num_1 * num_2
+# elif op == "/":
+#     res = num_1 / num_2
+# else:
+#     res = "Символ операции некорректен :("
+
+# print(f"Результат = {res}")
